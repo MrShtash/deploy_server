@@ -9,5 +9,5 @@ app.get("/api/:name", (req, res) => {
 });
 // if u have no env file - del
 app.listen(process.env.PORT || 3001, () => {
-  console.log(`Server listening on ${process.env.PORT || 3001}` RIGHT NOW);
+  console.log(`Server listening on ${process.env.PORT || 3001} RIGHT NOW`);
 });
